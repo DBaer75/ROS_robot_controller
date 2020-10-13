@@ -1,0 +1,27 @@
+<launch>
+
+  <node pkg ="db_all"
+        type="main.py"
+        name="db_all_node"
+        output="screen">
+  </node>
+
+  <node pkg ="db_move_robot"
+        type="main.py"
+        name="db_move_robot_node"
+        output="screen">
+  </node>
+
+    <node pkg ="db_watchdog"
+        type="main.py"
+        name="db_watchdog_node"
+        output="screen">
+  </node>
+
+    <node pkg ="db_keyboard_input"
+        type="main.py"
+        name="db_keyboard_input_node"
+        output="screen">
+  </node>
+
+</launch>

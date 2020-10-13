@@ -1,0 +1,11 @@
+  
+<launch>
+
+    <node pkg ="db_watchdog"
+        type="main.py"
+        name="db_watchdog_node"
+        output="screen">
+
+  </node>
+
+</launch>
